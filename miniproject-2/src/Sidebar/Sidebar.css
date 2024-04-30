@@ -1,0 +1,17 @@
+.Sidebar {
+    border-right: 1px solid;
+    padding: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: left;
+    width: 25%;
+
+}
+
+.Sidebar ul {
+    list-style: none;
+}
+
+.Sidebar li {
+    margin-left: 10px;
+}
