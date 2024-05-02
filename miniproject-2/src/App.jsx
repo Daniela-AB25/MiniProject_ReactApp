@@ -1,11 +1,12 @@
 import './App.css'
-import Homepage from './Homepage/Homepage'
+import HomePage from './components/HomePage/HomePage'
 
-const App = () => {
+function App() {
+
   return (
-    <div className='App'>
-      <Homepage />
-    </div >
+    <div className="App">
+      <HomePage />
+    </div>
   )
 }
 
