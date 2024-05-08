@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .ProductsList table,
 .ProductsList {
     width: 100%;
@@ -17,9 +16,4 @@
 .ProductsList td {
     padding: 15px;
     border-bottom: 1px solid #ccc
-=======
-.ProductsList div {
-    display: flex;
-
->>>>>>> 10f1c76d4c87c59a0a60c624f088d1d75febb344
 }

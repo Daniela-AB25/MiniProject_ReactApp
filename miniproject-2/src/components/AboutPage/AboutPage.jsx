@@ -1,11 +1,12 @@
-import './../AboutPage/AboutPage.css'
+import './AboutPage.css'
 
 const AboutPage = () => {
-  return (
-    <div className='AboutPage'>
-      <h1>Aprendemos a pistolazos</h1>
-    </div>
-  )
+    return (
+        <div className="AboutPage">
+            <h1>About</h1>
+            <hr />
+        </div>
+    )
 }
 
 export default AboutPage

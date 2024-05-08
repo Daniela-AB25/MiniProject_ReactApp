@@ -1,26 +1,5 @@
-import './Sidebar.css'
-<<<<<<< HEAD
 import { Link } from 'react-router-dom'
-
-const Sidebar = () => {
-  return (
-    <div className="Sidebar">
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">Add product</a>
-          </li>
-          <li>
-            <Link to={'/about-us'}>About</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  )
-=======
+import './Sidebar.css'
 
 const Sidebar = () => {
     return (
@@ -28,19 +7,18 @@ const Sidebar = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Students</a>
+                        <Link to={'/productos/listado'}>Productos</Link>
                     </li>
                     <li>
-                        <a href="#">Add student</a>
+                        <Link to={'/productos/crear'}>Nuevo producto</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link to={'/sobre-mi'}>Sobre mi</Link>
                     </li>
                 </ul>
             </nav>
         </div>
     )
->>>>>>> 10f1c76d4c87c59a0a60c624f088d1d75febb344
 }
 
 export default Sidebar
